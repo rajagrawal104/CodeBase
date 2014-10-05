@@ -1,0 +1,27 @@
+You are given a valid file that contains a valid Java source code that can successfully compile and execute. Your task is to find out the name of its primary class.
+
+A primary class name can be the class that is public.
+A primary class can be the class that has the main function.
+Your code will be tested on its readability, modularity, use of regex libaries, and the score that it gets. Elegant solutions without regex are also encouraged.
+
+Note The file given can compile and execute successfully.
+
+Input Format
+
+The file is read till EOF is reached.
+
+Output Format
+
+Primary Class name
+
+Sample Input
+
+public class AA
+{
+}
+Sample Output
+
+AA
+Explanation
+
+In the input provided, the primary class name is AA
